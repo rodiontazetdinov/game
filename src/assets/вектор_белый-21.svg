@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="_Слой_1" data-name="Слой 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 124.29 258.96">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        fill: #fff;
+      }
+
+      .cls-2 {
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <path class="cls-1" d="m124.25,258.96h0c-13.03,0-23.6-10.57-23.6-23.6v-117H23.76v117c0,13.03-10.57,23.6-23.6,23.6H.05V99.86h124.2v159.1Z"/>
+  <polygon class="cls-2" points="124.29 90.47 0 90.47 0 78.02 124.29 78.02 124.29 90.47 124.29 90.47"/>
+  <polygon class="cls-2" points="0 0 42.47 30.58 62.82 0 82.12 30.58 124.29 0 124.29 68.63 0 68.63 0 0"/>
+</svg>

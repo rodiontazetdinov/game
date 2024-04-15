@@ -5,7 +5,7 @@
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
-  font-weight: 400;
+  font-weight: 500;
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
@@ -32,6 +32,7 @@ body {
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
+  max-height: 100vh;
 }
 
 h1 {
@@ -61,7 +62,7 @@ button:focus-visible {
 @media (prefers-color-scheme: light) {
   :root {
     color: #213547;
-    background-color: #2c2c2c;
+    background-color: #191919;
   }
   a:hover {
     color: #747bff;
@@ -69,4 +70,32 @@ button:focus-visible {
   button {
     background-color: #f9f9f9;
   }
+}
+
+/* Define the base styles for the pulsating circle */
+.pulsating-circle {
+  /* Set the initial size */
+  height: 300px;
+  width: 300px;
+}
+
+/* Animate the pulse effect */
+@keyframes pulse {
+  0% {
+    transform: scale(0.95);
+    opacity: 0.8;
+  }
+  50% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(0.95);
+    opacity: 0.8;
+  }
+}
+
+/* Apply the pulse animation to the circle */
+.animate-pulse {
+  animation: pulse 2s infinite;
 }
